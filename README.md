@@ -7,7 +7,7 @@ This guide explains how to set up Microsoft Dynamics 365 Supply Chain Management
 ## Prerequisites
 
 ### 1. System Requirements
-- You must be using **Microsoft Dynamics 365 Supply Chain Management version 10.0.36 or later**.
+- You must be using **Microsoft Dynamics 365 Supply Chain Management version 10.0.40 or later**.
 
 ### 2. Set Up a Dataverse Environment
 The Inventory On-Hand mobile app relies on **Dataverse**. You must ensure your environment is properly configured.
@@ -74,28 +74,6 @@ Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Applic
 ```
 - Your changes are now reflected in /CanvasAppSource
 - You can now generate a new app binary, followed by a new solution, using the steps described above.
----
-
-### Localization (translation)
-All translations are found in the [`/Translations`](/Translations/) directory. The baseline is [`en-US`](/Translations/Labels.en-US.resx).
-
-#### Uptaking label changes
-
-Once a new label is added, they should be injected into the Canvas app. Follow these steps:
-
-1. Run the script:
-   ```powershell
-   .\scripts\LocalizerTool\LocalizerTool.ps1 -CopyToClipboard
-   ```
-   * You will now have the translations in your clipboard.
-2. Edit the Canvas app in Power Apps studio.
-3. Modify `App -> OnStart` and replace everything between the lines:
-   ```csharp
-   //localizer:gen-start
-   ...
-   //localizer:gen-end
-   ```
-   > To select the existing generated code, put your cursor right before the `With({`, then while holding `Shift`, press `End` twice and finally `Ctrl+V` to paste in the newly generated translation data.
 
 ---
 
