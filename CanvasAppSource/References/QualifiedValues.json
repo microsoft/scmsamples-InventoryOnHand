@@ -1,0 +1,144 @@
+{
+  "QualifiedValues": [
+    {
+      "Namespace": "Available physical aggregate  (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventavailphysicaliaggregatemobileentity_forms",
+      "Values": {
+        "Information": "875a91c1-1af1-3d4e-b1ca-9198a0963b81"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile entry (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobileentryentity_forms",
+      "Values": {
+        "Information": "c2ddb7cd-22c0-d8ea-b2d6-ee56e20ef1ac"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile request (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobilerequestentityv2_forms",
+      "Values": {
+        "Information": "9d2af8f4-d020-82fd-67b6-f736dc5901ea"
+      }
+    },
+    {
+      "Namespace": "Site and warehouse (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventsiteandwarehousemobileentity_forms",
+      "Values": {
+        "Information": "d5f58742-e8d6-c35d-9825-8d113575f899"
+      }
+    },
+    {
+      "Namespace": "Companies (Forms)",
+      "Kind": "default.cds_cdm_company_forms",
+      "Values": {
+        "Information": "3e586721-906a-45fa-b83b-9b270a2b20d3"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile app statuses (Forms)",
+      "Kind": "default.cds_ism_inventoryonhandmobileappstatus_forms",
+      "Values": {
+        "Information": "a149d508-1120-4d20-abec-86bb0b92fcce"
+      }
+    },
+    {
+      "Namespace": "Available physical aggregate  (mserp) (窗体)",
+      "Kind": "default.cds_mserp_inventavailphysicaliaggregatemobileentity_forms",
+      "Values": {
+        "Information": "875a91c1-1af1-3d4e-b1ca-9198a0963b81"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile entry (mserp) (窗体)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobileentryentity_forms",
+      "Values": {
+        "Information": "c2ddb7cd-22c0-d8ea-b2d6-ee56e20ef1ac"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile request (mserp) (窗体)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobilerequestentityv2_forms",
+      "Values": {
+        "Information": "9d2af8f4-d020-82fd-67b6-f736dc5901ea"
+      }
+    },
+    {
+      "Namespace": "Site and warehouse (mserp) (窗体)",
+      "Kind": "default.cds_mserp_inventsiteandwarehousemobileentity_forms",
+      "Values": {
+        "Information": "d5f58742-e8d6-c35d-9825-8d113575f899"
+      }
+    },
+    {
+      "Namespace": "Companies (窗体)",
+      "Kind": "default.cds_cdm_company_forms",
+      "Values": {
+        "Information": "3e586721-906a-45fa-b83b-9b270a2b20d3"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile app statuses (窗体)",
+      "Kind": "default.cds_ism_inventoryonhandmobileappstatus_forms",
+      "Values": {
+        "Information": "a149d508-1120-4d20-abec-86bb0b92fcce"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile request (mserp) (Forms)1",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobilerequestentity_forms",
+      "Values": {
+        "Information": "50a2fd09-ff70-73e0-02c7-4b76269d0e04"
+      }
+    },
+    {
+      "Namespace": "InventSiteAndWarehouses (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventsiteandwarehousemobileentity_forms",
+      "Values": {
+        "Information": "d5f58742-e8d6-c35d-9825-8d113575f899"
+      }
+    },
+    {
+      "Namespace": "@SCM:InventAvailPhysicalAggregateMobileEntityLabel (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventavailphysicaliaggregatemobileentity_forms",
+      "Values": {
+        "Information": "875a91c1-1af1-3d4e-b1ca-9198a0963b81"
+      }
+    },
+    {
+      "Namespace": "InventInventoryOnHandMobileRequestEntity (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobilerequestentity_forms",
+      "Values": {
+        "Information": "50a2fd09-ff70-73e0-02c7-4b76269d0e04"
+      }
+    },
+    {
+      "Namespace": "InventInventoryOnHandMobileEntryEntity (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobileentryentity_forms",
+      "Values": {
+        "Information": "c2ddb7cd-22c0-d8ea-b2d6-ee56e20ef1ac"
+      }
+    },
+    {
+      "Namespace": "Warehouses (mserp) (Forms)",
+      "Kind": "default.cds_mserp_inventsiteandwarehousemobileentity_forms",
+      "Values": {
+        "Information": "d5f58742-e8d6-c35d-9825-8d113575f899"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile request (mserp)_1 (Forms)",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobilerequestentityv2_forms",
+      "Values": {
+        "Information": "9d2af8f4-d020-82fd-67b6-f736dc5901ea"
+      }
+    },
+    {
+      "Namespace": "Inventory onhand mobile request (mserp) (Forms)11",
+      "Kind": "default.cds_mserp_inventinventoryonhandmobilerequestentityv2_forms",
+      "Values": {
+        "Information": "9d2af8f4-d020-82fd-67b6-f736dc5901ea"
+      }
+    }
+  ]
+}

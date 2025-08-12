@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a8b47f9b-f37e-4a8f-bd2d-2fbce7c1745a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ism_defaultcompany" select="1" icon="1" preview="1">
+        <row name="result" id="ism_inventoryonhandmobileappstatusid">
+          <cell name="ism_defaultcompany" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ism_inventoryonhandmobileappstatus">
+          <attribute name="ism_inventoryonhandmobileappstatusid" />
+          <attribute name="ism_defaultcompany" />
+          <attribute name="createdon" />
+          <order attribute="ism_defaultcompany" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ism_defaultcompany" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Inventory on-hand mobile app statuses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

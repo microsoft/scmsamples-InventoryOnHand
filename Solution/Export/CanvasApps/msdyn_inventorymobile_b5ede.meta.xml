@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msdyn_inventorymobile_b5ede</Name>
+  <AppVersion>2024-08-05T08:13:56Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.24081.3.0</CreatedByClientVersion>
+  <MinClientVersion>3.24081.3.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.24081.3","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20240805T080224Z-3.24074.1.0","showStatusBar":"true","offlineLargeFilesSupport":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(255, 255, 255, 1)</BackgroundColor>
+  <DisplayName>Inventory on-hand mobile app</DisplayName>
+  <Description>The Inventory On-hand Mobile Application provides an instant view of the on-hand status across facilities. It lets customer view on-hand inventory across facilities, current material reservations, and unreserved on-hand inventory. Customer can also enter item numbers to query on-hand inventory, and can do a filtered search for on-hand products or variants.</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Available physical aggregate  (mserp)":{"entitySetName":"mserp_inventavailphysicaliaggregatemobileentities","logicalName":"mserp_inventavailphysicaliaggregatemobileentity"},"Inventory onhand mobile entry (mserp)":{"entitySetName":"mserp_inventinventoryonhandmobileentryentities","logicalName":"mserp_inventinventoryonhandmobileentryentity"},"Site and warehouse (mserp)":{"entitySetName":"mserp_inventsiteandwarehousemobileentities","logicalName":"mserp_inventsiteandwarehousemobileentity"},"Companies":{"entitySetName":"cdm_companies","logicalName":"cdm_company"},"Inventory onhand mobile app statuses":{"entitySetName":"ism_inventoryonhandmobileappstatuses","logicalName":"ism_inventoryonhandmobileappstatus"},"Inventory onhand mobile request (mserp)":{"entitySetName":"mserp_inventinventoryonhandmobilerequestentityv2s","logicalName":"mserp_inventinventoryonhandmobilerequestentityv2"}},"components":[{"componentName":"CustomControl","identifier":"msdyn_Inventory.Mobile.Controls.Localization","identifierType":"LogicalName"},{"componentName":"CustomControl","identifier":"msdyn_Inventory.Mobile.Controls.Localization","identifierType":"LogicalName"}]}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"mserp_inventavailphysicaliaggregatemobileentity","componenttype":1},{"logicalname":"mserp_inventinventoryonhandmobileentryentity","componenttype":1},{"logicalname":"mserp_inventsiteandwarehousemobileentity","componenttype":1},{"logicalname":"cdm_company","componenttype":1},{"logicalname":"ism_inventoryonhandmobileappstatus","componenttype":1},{"logicalname":"mserp_inventinventoryonhandmobilerequestentityv2","componenttype":1},{"dependencyid":"","logicalname":"msdyn_Inventory.Mobile.Controls.Localization","componenttype":66,"componenttypeplatformname":"CustomControl"},{"dependencyid":"","logicalname":"msdyn_Inventory.Mobile.Controls.Localization","componenttype":66,"componenttypeplatformname":"CustomControl"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/msdyn_inventorymobile_b5ede_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msdyn_inventorymobile_b5ede_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

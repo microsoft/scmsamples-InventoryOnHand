@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msdyn_scm_Next" xml:space="preserve">
+    <value>下一页</value>
+    <comment>Localized name for Next</comment>
+  </data>
+  <data name="msdyn_scm_OnboardDescription" xml:space="preserve">
+    <value>按存储、按批次和按状态查看库存。</value>
+    <comment>Localized name for OnboardDescription</comment>
+  </data>
+  <data name="msdyn_scm_OnboardIntro" xml:space="preserve">
+    <value>全方位了解您的库存</value>
+    <comment>Localized name for OnboardIntro</comment>
+  </data>
+  <data name="msdyn_scm_OnboardTitle" xml:space="preserve">
+    <value>360 度库存盘点</value>
+    <comment>Localized name for OnboardTitle</comment>
+  </data>
+  <data name="msdyn_scm_LegalEntitySearchHint" xml:space="preserve">
+    <value>搜索法人</value>
+    <comment>Localized name for LegalEntitySearchHint</comment>
+  </data>
+  <data name="msdyn_scm_OnboardDescriptionSiteWhs" xml:space="preserve">
+    <value>通过专注于您的站点和仓库中的产品来提高工作效率。</value>
+    <comment>Localized name for OnboardDescriptionSiteWhs</comment>
+  </data>
+  <data name="msdyn_scm_OnboardIntroSiteWhs" xml:space="preserve">
+    <value>专注于您的站点和仓库</value>
+    <comment>Localized name for OnboardIntroSiteWhs</comment>
+  </data>
+  <data name="msdyn_scm_OnboardTitleSiteWhs" xml:space="preserve">
+    <value>我的站点和仓库</value>
+    <comment>Localized name for OnboardTitleSiteWhs</comment>
+  </data>
+  <data name="msdyn_scm_GetStarted" xml:space="preserve">
+    <value>开始</value>
+    <comment>Localized name for GetStarted</comment>
+  </data>
+  <data name="msdyn_scm_SelectLegalEntity" xml:space="preserve">
+    <value>选择法人</value>
+    <comment>Localized name for SelectLegalEntity</comment>
+  </data>
+  <data name="msdyn_scm_Product" xml:space="preserve">
+    <value>产品</value>
+    <comment>Localized name for Product</comment>
+  </data>
+  <data name="msdyn_scm_ProductSearchHint" xml:space="preserve">
+    <value>按产品编号/名称搜索</value>
+    <comment>Localized name for ProductSearchHint</comment>
+  </data>
+  <data name="msdyn_scm_ChangeLegalEntity" xml:space="preserve">
+    <value>更改法人</value>
+    <comment>Localized name for ChangeLegalEntity</comment>
+  </data>
+  <data name="msdyn_scm_SiteWhsSearch" xml:space="preserve">
+    <value>搜索站点或仓库</value>
+    <comment>Localized name for SiteWhsSearch</comment>
+  </data>
+  <data name="msdyn_scm_Site" xml:space="preserve">
+    <value>站点</value>
+    <comment>Localized name for Site</comment>
+  </data>
+  <data name="msdyn_scm_Warehouse" xml:space="preserve">
+    <value>仓库</value>
+    <comment>Localized name for Warehouse</comment>
+  </data>
+  <data name="msdyn_scm_AvailablePhysical" xml:space="preserve">
+    <value>实际可用</value>
+    <comment>Localized name for AvailablePhysical</comment>
+  </data>
+  <data name="msdyn_scm_SortBy" xml:space="preserve">
+    <value>排序依据</value>
+    <comment>Localized name for SortBy</comment>
+  </data>
+  <data name="msdyn_scm_SiteWhsButton" xml:space="preserve">
+    <value>站点和仓库</value>
+    <comment>Localized name for SiteWhsButton</comment>
+  </data>
+  <data name="msdyn_scm_Max" xml:space="preserve">
+    <value>最大值</value>
+    <comment>Localized name for Max</comment>
+  </data>
+  <data name="msdyn_scm_Min" xml:space="preserve">
+    <value>最小值</value>
+    <comment>Localized name for Min</comment>
+  </data>
+  <data name="msdyn_scm_InvMeasureWhs" xml:space="preserve">
+    <value>库存度量值 - 仓库</value>
+    <comment>Localized name for InvMeasureWhs</comment>
+  </data>
+  <data name="msdyn_scm_InvDim" xml:space="preserve">
+    <value>库存维度</value>
+    <comment>Localized name for InvDim</comment>
+  </data>
+  <data name="msdyn_scm_Apply" xml:space="preserve">
+    <value>应用</value>
+    <comment>Localized name for Apply</comment>
+  </data>
+  <data name="msdyn_scm_Clear" xml:space="preserve">
+    <value>清除</value>
+    <comment>Localized name for Clear</comment>
+  </data>
+  <data name="msdyn_scm_Color" xml:space="preserve">
+    <value>颜色</value>
+    <comment>Localized name for Color</comment>
+  </data>
+  <data name="msdyn_scm_Size" xml:space="preserve">
+    <value>大小</value>
+    <comment>Localized name for Size</comment>
+  </data>
+  <data name="msdyn_scm_Style" xml:space="preserve">
+    <value>样式</value>
+    <comment>Localized name for Style</comment>
+  </data>
+  <data name="msdyn_scm_Config" xml:space="preserve">
+    <value>配置</value>
+    <comment>Localized name for Config</comment>
+  </data>
+  <data name="msdyn_scm_colors" xml:space="preserve">
+    <value>颜色</value>
+    <comment>Localized name for colors</comment>
+  </data>
+  <data name="msdyn_scm_sizes" xml:space="preserve">
+    <value>大小</value>
+    <comment>Localized name for sizes</comment>
+  </data>
+  <data name="msdyn_scm_styles" xml:space="preserve">
+    <value>样式</value>
+    <comment>Localized name for styles</comment>
+  </data>
+  <data name="msdyn_scm_configs" xml:space="preserve">
+    <value>配置</value>
+    <comment>Localized name for configs</comment>
+  </data>
+  <data name="msdyn_scm_MySiteWHS" xml:space="preserve">
+    <value>我的站点和仓库</value>
+    <comment>Localized name for MySiteWHS</comment>
+  </data>
+  <data name="msdyn_scm_All" xml:space="preserve">
+    <value>所有</value>
+    <comment>Localized name for All</comment>
+  </data>
+  <data name="msdyn_scm_ByStorage" xml:space="preserve">
+    <value>按存储</value>
+    <comment>Localized name for ByStorage</comment>
+  </data>
+  <data name="msdyn_scm_ByBatch" xml:space="preserve">
+    <value>按批次</value>
+    <comment>Localized name for ByBatch</comment>
+  </data>
+  <data name="msdyn_scm_ByStatus" xml:space="preserve">
+    <value>按状态</value>
+    <comment>Localized name for ByStatus</comment>
+  </data>
+  <data name="msdyn_scm_TotalAvailable" xml:space="preserve">
+    <value>可用合计</value>
+    <comment>Localized name for TotalAvailable</comment>
+  </data>
+  <data name="msdyn_scm_AvailablePhysical" xml:space="preserve">
+    <value>实际可用</value>
+    <comment>Localized name for AvailablePhysical</comment>
+  </data>
+  <data name="msdyn_scm_OnOrder" xml:space="preserve">
+    <value>在单</value>
+    <comment>Localized name for OnOrder</comment>
+  </data>
+  <data name="msdyn_scm_PhysicalReserved" xml:space="preserve">
+    <value>实际预留</value>
+    <comment>Localized name for PhysicalReserved</comment>
+  </data>
+  <data name="msdyn_scm_PhysicalInventory" xml:space="preserve">
+    <value>实际库存</value>
+    <comment>Localized name for PhysicalInventory</comment>
+  </data>
+  <data name="msdyn_scm_Batch" xml:space="preserve">
+    <value>批次</value>
+    <comment>Localized name for Batch</comment>
+  </data>
+  <data name="msdyn_scm_Status" xml:space="preserve">
+    <value>状态</value>
+    <comment>Localized name for Status</comment>
+  </data>
+  <data name="msdyn_scm_InvMeasLoc" xml:space="preserve">
+    <value>库存度量值 - 位置</value>
+    <comment>Localized name for InvMeasLoc</comment>
+  </data>
+  <data name="msdyn_scm_Location" xml:space="preserve">
+    <value>位置</value>
+    <comment>Localized name for Location</comment>
+  </data>
+  <data name="msdyn_scm_None" xml:space="preserve">
+    <value>无</value>
+    <comment>Localized name for None</comment>
+  </data>
+  <data name="msdyn_scm_Selected" xml:space="preserve">
+    <value>已选中</value>
+    <comment>Localized name for Selected</comment>
+  </data>
+  <data name="msdyn_scm_Search" xml:space="preserve">
+    <value>搜索</value>
+    <comment>Localized name for Search</comment>
+  </data>
+  <data name="msdyn_scm_Filter" xml:space="preserve">
+    <value>筛选</value>
+    <comment>Localized name for Filter</comment>
+  </data>
+  <data name="msdyn_scm_Select" xml:space="preserve">
+    <value>选择</value>
+    <comment>Localized name for Select</comment>
+  </data>
+</root>

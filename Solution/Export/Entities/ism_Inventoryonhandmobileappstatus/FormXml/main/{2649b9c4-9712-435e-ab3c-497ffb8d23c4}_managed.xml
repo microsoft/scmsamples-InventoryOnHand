@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2649b9c4-9712-435e-ab3c-497ffb8d23c4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{4bbc4c87-7c39-4f43-b7bd-5a9137c6e875}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c8edde37-11be-46be-a524-9fc016cccc6a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4897ed20-68dd-41d5-a157-11cf7bff14a6}">
+                        <labels>
+                          <label description="Default company" languagecode="1033" />
+                        </labels>
+                        <control id="ism_defaultcompany" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ism_defaultcompany" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc6a3b10-36d1-439f-8d3b-5458bdd9ddf6}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85af20f8-ab4c-4bdd-a50c-daf9258051b9}">
+                        <labels>
+                          <label description="Default site" languagecode="1033" />
+                        </labels>
+                        <control id="ism_defaultsite" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ism_defaultsite" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6457ca9-b4f5-481a-afc4-9cbe9686b261}">
+                        <labels>
+                          <label description="Default warehouse" languagecode="1033" />
+                        </labels>
+                        <control id="ism_defaultwarehouse" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ism_defaultwarehouse" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1a48b6b-9630-4278-ac3a-039b083ca0fe}">
+                        <labels>
+                          <label description="Onboarded" languagecode="1033" />
+                        </labels>
+                        <control id="ism_onboarded" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="ism_onboarded" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

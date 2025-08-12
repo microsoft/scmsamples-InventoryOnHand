@@ -1,33 +1,104 @@
-# Project
+# Inventory On-Hand Mobile App Onboarding Guide
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This guide explains how to set up Microsoft Dynamics 365 Supply Chain Management and Dataverse for the Inventory On-Hand mobile app, install the app, and configure users for access.
 
-As the maintainer of this project, please make a few updates:
+---
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Prerequisites
 
-## Contributing
+### 1. System Requirements
+- You must be using **Microsoft Dynamics 365 Supply Chain Management version 10.0.36 or later**.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit [Contributor License Agreements](https://cla.opensource.microsoft.com).
+### 2. Set Up a Dataverse Environment
+The Inventory On-Hand mobile app relies on **Dataverse**. You must ensure your environment is properly configured.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+#### Steps:
+1. Sign in to the **Power Platform admin center**: [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com)
+2. Navigate to **Environments > New**.
+3. Set up a new environment or choose an existing one.
+4. Ensure **"Enable Dynamics 365 apps"** is enabled.
+5. Ensure **Power Apps Component Framework (PCF)** is enabled.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+---
 
-## Trademarks
+## Licensing Requirements
+Each user must have a **valid Microsoft Entra ID license** and the required **security roles**.
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
-trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+### Required Security Roles:
+- **Finance and Operations Basic User** (for Supply Chain Management)
+
+To review licensing details, please see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+
+---
+# Build, install, and other development processes
+## Prerequisites
+### Microsoft Power Platform CLI
+- Install [Microsoft Power Platform CLI](https://aka.ms/PowerAppsCLI).
+
+## Generate a new Canvas App binary
+- Run the script 
+```powershell
+.\scripts\MsAppPackTool\MsAppPackTool.ps1
+```
+- This generates **msdyn_inventorymobile_b5ede_DocumentUri.msapp** under **/Solution/Export/CanvasApps**, which is compiled based on the source code at /CanvasAppSource
+
+---
+
+## Generate a new solution
+- Run the script 
+```powershell
+.\scripts\SolutionPackTool\SolutionPackTool.ps1
+``` 
+- This generates **msdyn_InventoryMobile_managed.zip** and **msdyn_InventoryMobile.zip** under **/bin**
+---
+
+## Installing the Mobile App in Dataverse
+
+Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Application** in Dataverse:
+
+1. **Navigate to the PowerApps Portal**: [https://make.powerapps.com](https://make.powerapps.com)
+2. **Navigate to the Solutions tab on the left side**
+3. Select **Import Solution**
+4. Optional: You might need to sign the solution file first, if your organization demands solutions to be signed - [Sign Tool](https://learn.microsoft.com/en-us/dotnet/framework/tools/signtool-exe)
+5. **Import either the managed or unmanaged zip file from /bin**
+
+---
+
+## Applying changes
+- Open the Inventory On-Hand App in edit mode from the PowerApps portal
+- Make the required changes there
+- Download a copy of the app
+- Unpack the downloaded **.msapp** into this repository by running the script
+```powershell
+.\scripts\MsAppUnpackTool\MsAppUnpackTool.ps1 <msapp_file_path>
+```
+- Your changes are now reflected in /CanvasAppSource
+- You can now generate a new app binary, followed by a new solution, using the steps described above.
+---
+
+### Localization (translation)
+All translations are found in the [`/Translations`](/Translations/) directory. The baseline is [`en-US`](/Translations/Labels.en-US.resx).
+
+#### Uptaking label changes
+
+Once a new label is added, they should be injected into the Canvas app. Follow these steps:
+
+1. Run the script:
+   ```powershell
+   .\scripts\LocalizerTool\LocalizerTool.ps1 -CopyToClipboard
+   ```
+   * You will now have the translations in your clipboard.
+2. Edit the Canvas app in Power Apps studio.
+3. Modify `App -> OnStart` and replace everything between the lines:
+   ```csharp
+   //localizer:gen-start
+   ...
+   //localizer:gen-end
+   ```
+   > To select the existing generated code, put your cursor right before the `With({`, then while holding `Shift`, press `End` twice and finally `Ctrl+V` to paste in the newly generated translation data.
+
+---
+
+## Additional Resources
+For more details, including **security roles** and **Finance and Operations Inventory On-Hand setup** , refer to the official Microsoft documentation:  
+[Onboarding the Inventory On-Hand Mobile App](https://learn.microsoft.com/en-us/dynamics365/supply-chain/inventory/inventory-onhand-mobile-app).
