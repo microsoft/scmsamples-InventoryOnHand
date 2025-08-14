@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>msdyn_InventoryMobile_1_0_2_1_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="10:Description,business_unit_ism_inventoryonhandmobileappstatus" xml:space="preserve">
+    <value>Identificador único de la unidad de negocio propietaria del registro</value>
+    <comment>ism_Inventoryonhandmobileappstatus Description for EntityRelationship 'business_unit_ism_inventoryonhandmobileappstatus'</comment>
+  </data>
+  <data name="10:Description,lk_ism_inventoryonhandmobileappstatus_createdby" xml:space="preserve">
+    <value>Identificador único del usuario que creó el registro.</value>
+    <comment>ism_Inventoryonhandmobileappstatus Description for EntityRelationship 'lk_ism_inventoryonhandmobileappstatus_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_ism_inventoryonhandmobileappstatus_modifiedby" xml:space="preserve">
+    <value>Identificador único del usuario que modificó el registro.</value>
+    <comment>ism_Inventoryonhandmobileappstatus Description for EntityRelationship 'lk_ism_inventoryonhandmobileappstatus_modifiedby'</comment>
+  </data>
+  <data name="10:Description,owner_ism_inventoryonhandmobileappstatus" xml:space="preserve">
+    <value>Id. de propietario</value>
+    <comment>ism_Inventoryonhandmobileappstatus Description for EntityRelationship 'owner_ism_inventoryonhandmobileappstatus'</comment>
+  </data>
+  <data name="10:Description,team_ism_inventoryonhandmobileappstatus" xml:space="preserve">
+    <value>Identificador único del equipo propietario del registro.</value>
+    <comment>ism_Inventoryonhandmobileappstatus Description for EntityRelationship 'team_ism_inventoryonhandmobileappstatus'</comment>
+  </data>
+  <data name="10:Description,user_ism_inventoryonhandmobileappstatus" xml:space="preserve">
+    <value>Identificador único del usuario propietario del registro.</value>
+    <comment>ism_Inventoryonhandmobileappstatus Description for EntityRelationship 'user_ism_inventoryonhandmobileappstatus'</comment>
+  </data>
+  <data name="15062:Description,microsoftdynamicsmsdyn19235" xml:space="preserve">
+    <value>Dynamics 365</value>
+    <comment> 'microsoftdynamics' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:Description,msdyn_InventoryMobile" xml:space="preserve">
+    <value>Aplicación InventoryMobile para soluciones de Dynamics 365</value>
+    <comment> 'msdyn_InventoryMobile' : Description for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoftdynamicsmsdyn19235" xml:space="preserve">
+    <value>Dynamics 365</value>
+    <comment> 'microsoftdynamics' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,msdyn_InventoryMobile" xml:space="preserve">
+    <value>Solución de InventoryMobile</value>
+    <comment> 'msdyn_InventoryMobile' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Inventory onhand mobile app status{2649b9c4-9712-435e-ab3c-497ffb8d23c4}" xml:space="preserve">
+    <value>Formulario para esta entidad.</value>
+    <comment>'Inventory onhand mobile app status' : Description for systemform in Entity FormXml ID: '{2649b9c4-9712-435e-ab3c-497ffb8d23c4}'</comment>
+  </data>
+  <data name="1:Description,Inventory onhand mobile app status{a149d508-1120-4d20-abec-86bb0b92fcce}" xml:space="preserve">
+    <value>Formulario de tarjeta para esta entidad.</value>
+    <comment>'Inventory onhand mobile app status' : Description for systemform in Entity FormXml ID: '{a149d508-1120-4d20-abec-86bb0b92fcce}'</comment>
+  </data>
+  <data name="1:Description,Inventory onhand mobile app status{d7bed509-f46b-ee11-8179-0022482571d6}" xml:space="preserve">
+    <value>Estados de aplicación móvil Inventario disponible activos de mi propiedad</value>
+    <comment>'Inventory onhand mobile app status' : Description for SavedQuery on Entity QueryId: '{d7bed509-f46b-ee11-8179-0022482571d6}'</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusCreatedBy" xml:space="preserve">
+    <value>Identificador único del usuario que creó el registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusCreatedOn" xml:space="preserve">
+    <value>Fecha y hora de creación del registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusCreatedOnBehalfBy" xml:space="preserve">
+    <value>Identificador único del usuario delegado que creó el registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusentityism_Inventoryonhandmobileappstatus" xml:space="preserve">
+    <value />
+    <comment> 'ism_Inventoryonhandmobileappstatus' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusImportSequenceNumber" xml:space="preserve">
+    <value>Número de secuencia de la importación que creó este registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_Defaultcompany" xml:space="preserve">
+    <value />
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ism_Defaultcompany' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_Defaultsite" xml:space="preserve">
+    <value />
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ism_Defaultsite' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_Defaultwarehouse" xml:space="preserve">
+    <value />
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ism_Defaultwarehouse' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_InventoryonhandmobileappstatusId" xml:space="preserve">
+    <value>Identificador único de instancias de entidad</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ism_InventoryonhandmobileappstatusId' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_ism_onboarded" xml:space="preserve">
+    <value />
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for OptionSet 'ism_inventoryonhandmobileappstatus_ism_onboarded' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statecode" xml:space="preserve">
+    <value>Estado de la aplicación móvil Inventario disponible</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for OptionSet 'ism_inventoryonhandmobileappstatus_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statuscode" xml:space="preserve">
+    <value>Razón para el estado de la aplicación móvil Inventario disponible</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for OptionSet 'ism_inventoryonhandmobileappstatus_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusism_Onboarded" xml:space="preserve">
+    <value />
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ism_Onboarded' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusModifiedBy" xml:space="preserve">
+    <value>Identificador único del usuario que modificó el registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusModifiedOn" xml:space="preserve">
+    <value>Fecha y hora de modificación del registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusModifiedOnBehalfBy" xml:space="preserve">
+    <value>Identificador único del usuario delegado que modificó el registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusOverriddenCreatedOn" xml:space="preserve">
+    <value>Fecha y hora de migración del registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusOwnerId" xml:space="preserve">
+    <value>Id. de propietario</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusOwningBusinessUnit" xml:space="preserve">
+    <value>Identificador único de la unidad de negocio propietaria del registro</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusOwningTeam" xml:space="preserve">
+    <value>Identificador único del equipo propietario del registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusOwningUser" xml:space="preserve">
+    <value>Identificador único del usuario propietario del registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusstatecode" xml:space="preserve">
+    <value>Estado de la aplicación móvil Inventario disponible</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_Inventoryonhandmobileappstatusstatuscode" xml:space="preserve">
+    <value>Razón para el estado de la aplicación móvil Inventario disponible</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Solo para uso interno.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ism_InventoryonhandmobileappstatusUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Código de la zona horaria que estaba en uso cuando se creó el registro.</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusCreatedBy" xml:space="preserve">
+    <value>Autor</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusCreatedOn" xml:space="preserve">
+    <value>Fecha de creación</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusCreatedOnBehalfBy" xml:space="preserve">
+    <value>Autor (delegado)</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusImportSequenceNumber" xml:space="preserve">
+    <value>Número de secuencia de importación</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_Defaultcompany" xml:space="preserve">
+    <value>Empresa predeterminada</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ism_Defaultcompany' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_Defaultsite" xml:space="preserve">
+    <value>Sitio predeterminado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ism_Defaultsite' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_Defaultwarehouse" xml:space="preserve">
+    <value>Almacén predeterminado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ism_Defaultwarehouse' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_InventoryonhandmobileappstatusId" xml:space="preserve">
+    <value>Estado de la aplicación móvil Inventario disponible</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ism_InventoryonhandmobileappstatusId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_ism_onboarded" xml:space="preserve">
+    <value>Incorporado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for OptionSet 'ism_inventoryonhandmobileappstatus_ism_onboarded' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statecode" xml:space="preserve">
+    <value>Estado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for OptionSet 'ism_inventoryonhandmobileappstatus_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statuscode" xml:space="preserve">
+    <value>Razón para el estado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for OptionSet 'ism_inventoryonhandmobileappstatus_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusism_Onboarded" xml:space="preserve">
+    <value>Incorporado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ism_Onboarded' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusModifiedBy" xml:space="preserve">
+    <value>Autor de la modificación</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusModifiedOn" xml:space="preserve">
+    <value>Fecha de modificación</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusModifiedOnBehalfBy" xml:space="preserve">
+    <value>Autor de la modificación (delegado)</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusOverriddenCreatedOn" xml:space="preserve">
+    <value>Fecha de creación del registro</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusOwnerId" xml:space="preserve">
+    <value>Propietario</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusOwningBusinessUnit" xml:space="preserve">
+    <value>Unidad de negocio propietaria</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusOwningTeam" xml:space="preserve">
+    <value>Equipo propietario</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusOwningUser" xml:space="preserve">
+    <value>Usuario propietario</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusstatecode" xml:space="preserve">
+    <value>Estado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_Inventoryonhandmobileappstatusstatuscode" xml:space="preserve">
+    <value>Razón para el estado</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Número de versión de regla de zona horaria</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ism_InventoryonhandmobileappstatusUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Código de zona horaria de conversión UTC</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{046fe0d1-7184-4ff5-a4c7-5262c9cf40d1}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Inventory onhand mobile app status' : label for section in Entity FormXml ID: '{046fe0d1-7184-4ff5-a4c7-5262c9cf40d1}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{0a97f84f-a7ab-48bb-9a5b-41ed18868eef}" xml:space="preserve">
+    <value />
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{0a97f84f-a7ab-48bb-9a5b-41ed18868eef}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{0cb727df-3fe6-41ee-987a-eb06fada7c58}" xml:space="preserve">
+    <value>Empresa predeterminada</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{0cb727df-3fe6-41ee-987a-eb06fada7c58}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{0d5c479e-7daa-4633-aacf-9ce7a0bf2e2a}" xml:space="preserve">
+    <value>Fecha de creación</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{0d5c479e-7daa-4633-aacf-9ce7a0bf2e2a}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{2e1c4e2c-1e19-437e-a66a-c03d54ecc5f0}" xml:space="preserve">
+    <value />
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{2e1c4e2c-1e19-437e-a66a-c03d54ecc5f0}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{3a7dae67-7e64-4276-bec0-83bc0869bdaf}" xml:space="preserve">
+    <value>Propietario</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{3a7dae67-7e64-4276-bec0-83bc0869bdaf}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{40bdc687-2f2e-42f0-a5ed-cc8848fb9507}" xml:space="preserve">
+    <value />
+    <comment>'Inventory onhand mobile app status' : label for tab in Entity FormXml ID: '{40bdc687-2f2e-42f0-a5ed-cc8848fb9507}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{4897ed20-68dd-41d5-a157-11cf7bff14a6}" xml:space="preserve">
+    <value>Empresa predeterminada</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{4897ed20-68dd-41d5-a157-11cf7bff14a6}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{4bbc4c87-7c39-4f43-b7bd-5a9137c6e875}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Inventory onhand mobile app status' : label for tab in Entity FormXml ID: '{4bbc4c87-7c39-4f43-b7bd-5a9137c6e875}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{78b627a2-ff3b-4ccb-93a6-5a3ed85b77b2}" xml:space="preserve">
+    <value />
+    <comment>'Inventory onhand mobile app status' : label for tab in Entity FormXml ID: '{78b627a2-ff3b-4ccb-93a6-5a3ed85b77b2}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{7cbc5b7f-24d7-4c9c-b846-c05fa68a968b}" xml:space="preserve">
+    <value>Pie de página</value>
+    <comment>'Inventory onhand mobile app status' : label for section in Entity FormXml ID: '{7cbc5b7f-24d7-4c9c-b846-c05fa68a968b}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{81c6c1e6-dfd3-4d77-a49e-534c24dc46e6}" xml:space="preserve">
+    <value>Empresa predeterminada</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{81c6c1e6-dfd3-4d77-a49e-534c24dc46e6}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{84c8ef82-99ef-4c21-94d1-75e49a0e5be8}" xml:space="preserve">
+    <value>Encabezado</value>
+    <comment>'Inventory onhand mobile app status' : label for section in Entity FormXml ID: '{84c8ef82-99ef-4c21-94d1-75e49a0e5be8}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{85af20f8-ab4c-4bdd-a50c-daf9258051b9}" xml:space="preserve">
+    <value>Sitio predeterminado</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{85af20f8-ab4c-4bdd-a50c-daf9258051b9}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{a7635842-a985-4b92-883b-c00022bf3420}" xml:space="preserve">
+    <value />
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{a7635842-a985-4b92-883b-c00022bf3420}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{ad9157cf-40cc-478f-a7a9-30739ba967df}" xml:space="preserve">
+    <value>Detalles</value>
+    <comment>'Inventory onhand mobile app status' : label for section in Entity FormXml ID: '{ad9157cf-40cc-478f-a7a9-30739ba967df}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{c1a48b6b-9630-4278-ac3a-039b083ca0fe}" xml:space="preserve">
+    <value>Incorporado</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{c1a48b6b-9630-4278-ac3a-039b083ca0fe}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{c8a5d2fd-7b7e-4f6e-af8a-0a74240075d7}" xml:space="preserve">
+    <value />
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{c8a5d2fd-7b7e-4f6e-af8a-0a74240075d7}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{c8edde37-11be-46be-a524-9fc016cccc6a}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Inventory onhand mobile app status' : label for section in Entity FormXml ID: '{c8edde37-11be-46be-a524-9fc016cccc6a}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{cc6a3b10-36d1-439f-8d3b-5458bdd9ddf6}" xml:space="preserve">
+    <value>Propietario</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{cc6a3b10-36d1-439f-8d3b-5458bdd9ddf6}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{d97eeb7c-56ac-4480-88f9-d65c7293e2a5}" xml:space="preserve">
+    <value>Razón para el estado</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{d97eeb7c-56ac-4480-88f9-d65c7293e2a5}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{dfb7d67d-e042-43f7-a347-3ef14d165c50}" xml:space="preserve">
+    <value>Franja de colores</value>
+    <comment>'Inventory onhand mobile app status' : label for section in Entity FormXml ID: '{dfb7d67d-e042-43f7-a347-3ef14d165c50}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{f6043eb7-0393-4b96-9ce8-9e5975500bcf}" xml:space="preserve">
+    <value>Propietario</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{f6043eb7-0393-4b96-9ce8-9e5975500bcf}'</comment>
+  </data>
+  <data name="1:label,Inventory onhand mobile app status{f6457ca9-b4f5-481a-afc4-9cbe9686b261}" xml:space="preserve">
+    <value>Almacén predeterminado</value>
+    <comment>'Inventory onhand mobile app status' : label for cell in Entity FormXml ID: '{f6457ca9-b4f5-481a-afc4-9cbe9686b261}'</comment>
+  </data>
+  <data name="1:label,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_ism_onboarded0" xml:space="preserve">
+    <value>No</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_ism_onboarded1" xml:space="preserve">
+    <value>Sí</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statecode0" xml:space="preserve">
+    <value>Activo</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statecode1" xml:space="preserve">
+    <value>Inactivo</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statuscode1" xml:space="preserve">
+    <value>Activo</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,ism_Inventoryonhandmobileappstatusism_inventoryonhandmobileappstatus_statuscode2" xml:space="preserve">
+    <value>Inactivo</value>
+    <comment>'ism_Inventoryonhandmobileappstatus' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,ism_Inventoryonhandmobileappstatusentityism_Inventoryonhandmobileappstatus" xml:space="preserve">
+    <value>Estados de la aplicación móvil Inventario disponible (versión preliminar)</value>
+    <comment> 'ism_Inventoryonhandmobileappstatus' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,mserp_inventsiteandwarehousemobileentityentitymserp_inventsiteandwarehousemobileentity" xml:space="preserve">
+    <value>Sitio y almacén (mserp)</value>
+    <comment> 'mserp_inventsiteandwarehousemobileentity' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{02288fee-b102-446b-8863-bf5651bacca9}" xml:space="preserve">
+    <value>Vista de búsqueda avanzada del estado de la aplicación móvil Inventario disponible</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{02288fee-b102-446b-8863-bf5651bacca9}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{127e51c7-2657-4032-8f3a-03e33665d60b}" xml:space="preserve">
+    <value>Estados de aplicación móvil Inventario disponible inactivos</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{127e51c7-2657-4032-8f3a-03e33665d60b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{2649b9c4-9712-435e-ab3c-497ffb8d23c4}" xml:space="preserve">
+    <value>Información</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for systemform in Entity FormXml ID: '{2649b9c4-9712-435e-ab3c-497ffb8d23c4}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{5b737701-59ed-40a9-8702-5afb4083c55d}" xml:space="preserve">
+    <value>Vista asociada de estado de la aplicación móvil Inventario disponible</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{5b737701-59ed-40a9-8702-5afb4083c55d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{5dcd0f0a-b323-47b6-b0c2-0b0f0c82c749}" xml:space="preserve">
+    <value>Estados de aplicación móvil Inventario disponible activos</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{5dcd0f0a-b323-47b6-b0c2-0b0f0c82c749}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{7d89679c-1811-42ac-a46e-629fa1f53ae2}" xml:space="preserve">
+    <value>Información</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for systemform in Entity FormXml ID: '{7d89679c-1811-42ac-a46e-629fa1f53ae2}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{a149d508-1120-4d20-abec-86bb0b92fcce}" xml:space="preserve">
+    <value>Información</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for systemform in Entity FormXml ID: '{a149d508-1120-4d20-abec-86bb0b92fcce}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{a8354191-3431-4658-9255-9a00a50df530}" xml:space="preserve">
+    <value>Vista de búsqueda de estados de la aplicación móvil Inventario disponible</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{a8354191-3431-4658-9255-9a00a50df530}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{a8b47f9b-f37e-4a8f-bd2d-2fbce7c1745a}" xml:space="preserve">
+    <value>Búsqueda rápida de estados de aplicación móvil Inventario disponible activos</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{a8b47f9b-f37e-4a8f-bd2d-2fbce7c1745a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Inventory onhand mobile app status{d7bed509-f46b-ee11-8179-0022482571d6}" xml:space="preserve">
+    <value>Mis estados de aplicación móvil Inventario disponible</value>
+    <comment>'Inventory onhand mobile app status' : LocalizedName for SavedQuery on Entity QueryId: '{d7bed509-f46b-ee11-8179-0022482571d6}'</comment>
+  </data>
+  <data name="1:LocalizedName,ism_Inventoryonhandmobileappstatusentityism_Inventoryonhandmobileappstatus" xml:space="preserve">
+    <value>Estado de la aplicación móvil Inventario disponible</value>
+    <comment> 'ism_Inventoryonhandmobileappstatus' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,mserp_inventsiteandwarehousemobileentityentitymserp_inventsiteandwarehousemobileentity" xml:space="preserve">
+    <value>Sitio y almacén (mserp)</value>
+    <comment> 'mserp_inventsiteandwarehousemobileentity' : LocalizedName for Entity</comment>
+  </data>
+</root>
