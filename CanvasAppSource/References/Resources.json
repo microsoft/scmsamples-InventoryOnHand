@@ -1,0 +1,76 @@
+{
+  "Resources": [
+    {
+      "Name": "SampleImage",
+      "Schema": "i",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "/ctrllib/image/images/SampleImage.svg",
+      "Path": "/ctrllib/image/images/SampleImage.svg",
+      "Content": "Image",
+      "ResourceKind": "Uri",
+      "RootPath": "ms-appx:///ctrllib/image/images/SampleImage.svg"
+    },
+    {
+      "Name": "cityIcon",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "bdc0b2af-0d6d-4186-ac6b-e31b16722d4d.png",
+      "Path": "Assets\\Images\\bdc0b2af-0d6d-4186-ac6b-e31b16722d4d.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwapreprodwus2.blob.core.windows.net/b14c56a8-2f63-4ed1-88bd-8588eae335ff-1/resource/Assets0Images0bdc0b2af-0d6d-4186-ac6b-e31b16722d4d.png?skoid=af5c105d-2fa5-4232-a94e-1d2a04756da0&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-05T08%3A09%3A52Z&ske=2024-08-06T08%3A24%3A52Z&sks=b&skv=2023-01-03"
+    },
+    {
+      "Name": "fileTransfer",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "c1429731-c909-4a23-b2dc-7d5b557b9e08.png",
+      "Path": "Assets\\Images\\c1429731-c909-4a23-b2dc-7d5b557b9e08.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwapreprodwus2.blob.core.windows.net/b14c56a8-2f63-4ed1-88bd-8588eae335ff-1/resource/Assets0Images0c1429731-c909-4a23-b2dc-7d5b557b9e08.png?skoid=af5c105d-2fa5-4232-a94e-1d2a04756da0&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-05T08%3A09%3A52Z&ske=2024-08-06T08%3A24%3A52Z&sks=b&skv=2023-01-03"
+    },
+    {
+      "Name": "onboarding1",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "97cbae5e-37cf-4de2-8207-da1c55a6f5dc.png",
+      "Path": "Assets\\Images\\97cbae5e-37cf-4de2-8207-da1c55a6f5dc.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwapreprodwus2.blob.core.windows.net/b14c56a8-2f63-4ed1-88bd-8588eae335ff-1/resource/Assets0Images097cbae5e-37cf-4de2-8207-da1c55a6f5dc.png?skoid=af5c105d-2fa5-4232-a94e-1d2a04756da0&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-05T08%3A09%3A52Z&ske=2024-08-06T08%3A24%3A52Z&sks=b&skv=2023-01-03"
+    },
+    {
+      "Name": "onboarding2_2",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "199a09b2-b2fa-431b-88b5-b3925b65809f.png",
+      "Path": "Assets\\Images\\199a09b2-b2fa-431b-88b5-b3925b65809f.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwapreprodwus2.blob.core.windows.net/b14c56a8-2f63-4ed1-88bd-8588eae335ff-1/resource/Assets0Images0199a09b2-b2fa-431b-88b5-b3925b65809f.png?skoid=af5c105d-2fa5-4232-a94e-1d2a04756da0&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-05T08%3A09%3A52Z&ske=2024-08-06T08%3A24%3A52Z&sks=b&skv=2023-01-03"
+    },
+    {
+      "Name": "onboarding2_1",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "bd4ad7a8-396e-47e2-9aa0-836187b73592.png",
+      "Path": "Assets\\Images\\bd4ad7a8-396e-47e2-9aa0-836187b73592.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwapreprodwus2.blob.core.windows.net/b14c56a8-2f63-4ed1-88bd-8588eae335ff-1/resource/Assets0Images0bd4ad7a8-396e-47e2-9aa0-836187b73592.png?skoid=af5c105d-2fa5-4232-a94e-1d2a04756da0&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-05T08%3A09%3A52Z&ske=2024-08-06T08%3A24%3A52Z&sks=b&skv=2023-01-03"
+    }
+  ]
+}

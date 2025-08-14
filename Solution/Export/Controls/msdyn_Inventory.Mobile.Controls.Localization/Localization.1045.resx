@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msdyn_scm_Next" xml:space="preserve">
+    <value>Następne</value>
+    <comment>Localized name for Next</comment>
+  </data>
+  <data name="msdyn_scm_OnboardDescription" xml:space="preserve">
+    <value>Wyświetl zapasy według magazynu, partii i stanu.</value>
+    <comment>Localized name for OnboardDescription</comment>
+  </data>
+  <data name="msdyn_scm_OnboardIntro" xml:space="preserve">
+    <value>Uzyskaj pełen obraz swoich zapasów</value>
+    <comment>Localized name for OnboardIntro</comment>
+  </data>
+  <data name="msdyn_scm_OnboardTitle" xml:space="preserve">
+    <value>Pełen obraz zapasów</value>
+    <comment>Localized name for OnboardTitle</comment>
+  </data>
+  <data name="msdyn_scm_LegalEntitySearchHint" xml:space="preserve">
+    <value>Wyszukaj osobę prawną</value>
+    <comment>Localized name for LegalEntitySearchHint</comment>
+  </data>
+  <data name="msdyn_scm_OnboardDescriptionSiteWhs" xml:space="preserve">
+    <value>Popraw wydajność pracy, skupiając się na produktach w oddziale i magazynie.</value>
+    <comment>Localized name for OnboardDescriptionSiteWhs</comment>
+  </data>
+  <data name="msdyn_scm_OnboardIntroSiteWhs" xml:space="preserve">
+    <value>Skup się na swoim oddziale i magazynie</value>
+    <comment>Localized name for OnboardIntroSiteWhs</comment>
+  </data>
+  <data name="msdyn_scm_OnboardTitleSiteWhs" xml:space="preserve">
+    <value>Mój oddział i magazyn</value>
+    <comment>Localized name for OnboardTitleSiteWhs</comment>
+  </data>
+  <data name="msdyn_scm_GetStarted" xml:space="preserve">
+    <value>Wprowadzenie</value>
+    <comment>Localized name for GetStarted</comment>
+  </data>
+  <data name="msdyn_scm_SelectLegalEntity" xml:space="preserve">
+    <value>Wybierz osobę prawną</value>
+    <comment>Localized name for SelectLegalEntity</comment>
+  </data>
+  <data name="msdyn_scm_Product" xml:space="preserve">
+    <value>Produkt</value>
+    <comment>Localized name for Product</comment>
+  </data>
+  <data name="msdyn_scm_ProductSearchHint" xml:space="preserve">
+    <value>Wyszukaj, używając numeru/nazwy produktu</value>
+    <comment>Localized name for ProductSearchHint</comment>
+  </data>
+  <data name="msdyn_scm_ChangeLegalEntity" xml:space="preserve">
+    <value>Zmień osobę prawną</value>
+    <comment>Localized name for ChangeLegalEntity</comment>
+  </data>
+  <data name="msdyn_scm_SiteWhsSearch" xml:space="preserve">
+    <value>Wyszukaj oddział lub magazyn</value>
+    <comment>Localized name for SiteWhsSearch</comment>
+  </data>
+  <data name="msdyn_scm_Site" xml:space="preserve">
+    <value>Oddział</value>
+    <comment>Localized name for Site</comment>
+  </data>
+  <data name="msdyn_scm_Warehouse" xml:space="preserve">
+    <value>Magazyn</value>
+    <comment>Localized name for Warehouse</comment>
+  </data>
+  <data name="msdyn_scm_AvailablePhysical" xml:space="preserve">
+    <value>Fizycznie dostępne</value>
+    <comment>Localized name for AvailablePhysical</comment>
+  </data>
+  <data name="msdyn_scm_SortBy" xml:space="preserve">
+    <value>Sortuj według</value>
+    <comment>Localized name for SortBy</comment>
+  </data>
+  <data name="msdyn_scm_SiteWhsButton" xml:space="preserve">
+    <value>Oddział i magazyn</value>
+    <comment>Localized name for SiteWhsButton</comment>
+  </data>
+  <data name="msdyn_scm_Max" xml:space="preserve">
+    <value>Maksimum</value>
+    <comment>Localized name for Max</comment>
+  </data>
+  <data name="msdyn_scm_Min" xml:space="preserve">
+    <value>Minimum</value>
+    <comment>Localized name for Min</comment>
+  </data>
+  <data name="msdyn_scm_InvMeasureWhs" xml:space="preserve">
+    <value>Miary zapasów — magazyn</value>
+    <comment>Localized name for InvMeasureWhs</comment>
+  </data>
+  <data name="msdyn_scm_InvDim" xml:space="preserve">
+    <value>Wymiary magazynowe</value>
+    <comment>Localized name for InvDim</comment>
+  </data>
+  <data name="msdyn_scm_Apply" xml:space="preserve">
+    <value>Zastosuj</value>
+    <comment>Localized name for Apply</comment>
+  </data>
+  <data name="msdyn_scm_Clear" xml:space="preserve">
+    <value>Wyczyść</value>
+    <comment>Localized name for Clear</comment>
+  </data>
+  <data name="msdyn_scm_Color" xml:space="preserve">
+    <value>Kolor</value>
+    <comment>Localized name for Color</comment>
+  </data>
+  <data name="msdyn_scm_Size" xml:space="preserve">
+    <value>Rozmiar</value>
+    <comment>Localized name for Size</comment>
+  </data>
+  <data name="msdyn_scm_Style" xml:space="preserve">
+    <value>Styl</value>
+    <comment>Localized name for Style</comment>
+  </data>
+  <data name="msdyn_scm_Config" xml:space="preserve">
+    <value>Konfiguracje</value>
+    <comment>Localized name for Config</comment>
+  </data>
+  <data name="msdyn_scm_colors" xml:space="preserve">
+    <value>kolory</value>
+    <comment>Localized name for colors</comment>
+  </data>
+  <data name="msdyn_scm_sizes" xml:space="preserve">
+    <value>rozmiary</value>
+    <comment>Localized name for sizes</comment>
+  </data>
+  <data name="msdyn_scm_styles" xml:space="preserve">
+    <value>style</value>
+    <comment>Localized name for styles</comment>
+  </data>
+  <data name="msdyn_scm_configs" xml:space="preserve">
+    <value>konfiguracje</value>
+    <comment>Localized name for configs</comment>
+  </data>
+  <data name="msdyn_scm_MySiteWHS" xml:space="preserve">
+    <value>Mój oddział i magazyn</value>
+    <comment>Localized name for MySiteWHS</comment>
+  </data>
+  <data name="msdyn_scm_All" xml:space="preserve">
+    <value>Wszytko</value>
+    <comment>Localized name for All</comment>
+  </data>
+  <data name="msdyn_scm_ByStorage" xml:space="preserve">
+    <value>Według magazynu</value>
+    <comment>Localized name for ByStorage</comment>
+  </data>
+  <data name="msdyn_scm_ByBatch" xml:space="preserve">
+    <value>Według partii</value>
+    <comment>Localized name for ByBatch</comment>
+  </data>
+  <data name="msdyn_scm_ByStatus" xml:space="preserve">
+    <value>Według stanu</value>
+    <comment>Localized name for ByStatus</comment>
+  </data>
+  <data name="msdyn_scm_TotalAvailable" xml:space="preserve">
+    <value>Wszystkie dostępne</value>
+    <comment>Localized name for TotalAvailable</comment>
+  </data>
+  <data name="msdyn_scm_AvailablePhysical" xml:space="preserve">
+    <value>Fizycznie dostępne</value>
+    <comment>Localized name for AvailablePhysical</comment>
+  </data>
+  <data name="msdyn_scm_OnOrder" xml:space="preserve">
+    <value>Zamówione</value>
+    <comment>Localized name for OnOrder</comment>
+  </data>
+  <data name="msdyn_scm_PhysicalReserved" xml:space="preserve">
+    <value>Rezerwacja fizyczna</value>
+    <comment>Localized name for PhysicalReserved</comment>
+  </data>
+  <data name="msdyn_scm_PhysicalInventory" xml:space="preserve">
+    <value>Zapasy fizyczne</value>
+    <comment>Localized name for PhysicalInventory</comment>
+  </data>
+  <data name="msdyn_scm_Batch" xml:space="preserve">
+    <value>Partia</value>
+    <comment>Localized name for Batch</comment>
+  </data>
+  <data name="msdyn_scm_Status" xml:space="preserve">
+    <value>Stan</value>
+    <comment>Localized name for Status</comment>
+  </data>
+  <data name="msdyn_scm_InvMeasLoc" xml:space="preserve">
+    <value>Miary zapasów — lokalizacja</value>
+    <comment>Localized name for InvMeasLoc</comment>
+  </data>
+  <data name="msdyn_scm_Location" xml:space="preserve">
+    <value>Lokalizacja</value>
+    <comment>Localized name for Location</comment>
+  </data>
+  <data name="msdyn_scm_None" xml:space="preserve">
+    <value>Żadne</value>
+    <comment>Localized name for None</comment>
+  </data>
+  <data name="msdyn_scm_Selected" xml:space="preserve">
+    <value>Wybrane</value>
+    <comment>Localized name for Selected</comment>
+  </data>
+  <data name="msdyn_scm_Search" xml:space="preserve">
+    <value>Wyszukiwanie</value>
+    <comment>Localized name for Search</comment>
+  </data>
+  <data name="msdyn_scm_Filter" xml:space="preserve">
+    <value>Filtruj</value>
+    <comment>Localized name for Filter</comment>
+  </data>
+  <data name="msdyn_scm_Select" xml:space="preserve">
+    <value>Wybierz</value>
+    <comment>Localized name for Select</comment>
+  </data>
+</root>

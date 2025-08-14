@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ism_inventoryonhandmobileappstatus" />
+  <EntityRelationship Name="lk_ism_inventoryonhandmobileappstatus_createdby" />
+  <EntityRelationship Name="lk_ism_inventoryonhandmobileappstatus_modifiedby" />
+  <EntityRelationship Name="mserp_InventAvailPhysicalIAggregateMobileEntity_dataAreaId_rel" />
+  <EntityRelationship Name="mserp_InventInventoryOnHandMobileRequestEntity_dataAreaId_rel" />
+  <EntityRelationship Name="mserp_INVENTINVENTORYONHANDMOBILEREQUESTENTITYV2_dataAreaId_rel" />
+  <EntityRelationship Name="mserp_InventSiteAndWarehouseMobileEntity_dataAreaId_rel" />
+  <EntityRelationship Name="owner_ism_inventoryonhandmobileappstatus" />
+  <EntityRelationship Name="team_ism_inventoryonhandmobileappstatus" />
+  <EntityRelationship Name="user_ism_inventoryonhandmobileappstatus" />
+</EntityRelationships>

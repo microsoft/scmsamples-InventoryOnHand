@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24074.120" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>msdyn_InventoryMobile</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="InventoryMobile Solution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="InventoryMobile application for Dynamics 365 solutions" languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.2.2</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Dynamics 365" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Dynamics 365" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl>http://crm.dynamics.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>msdyn</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>19235</CustomizationOptionValuePrefix>
+      <Addresses />
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ism_inventoryonhandmobileappstatus" behavior="0" />
+      <RootComponent type="1" schemaName="mserp_financeandoperationsentity" behavior="0" />
+      <RootComponent type="1" schemaName="mserp_inventavailphysicaliaggregatemobileentity" behavior="0" />
+      <RootComponent type="1" schemaName="mserp_inventinventoryonhandmobileentryentity" behavior="0" />
+      <RootComponent type="1" schemaName="mserp_inventinventoryonhandmobilerequestentity" behavior="0" />
+      <RootComponent type="1" schemaName="mserp_inventinventoryonhandmobilerequestentityv2" behavior="0" />
+      <RootComponent type="1" schemaName="mserp_inventsiteandwarehousemobileentity" behavior="0" />
+      <RootComponent type="300" schemaName="msdyn_inventorymobile_b5ede" behavior="0" />
+      <RootComponent type="66" schemaName="msdyn_Inventory.Mobile.Controls.Localization" behavior="0" />
+      <RootComponent type="9" schemaName="mserp_inventinventoryonhandmobileaggregatetype" behavior="0" />
+      <RootComponent type="9" schemaName="mserp_noyes" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="cdm_company" displayName="Company" solution="Dynamics365Company (2.4.0.413)">
+          <package>HCMCommonAnchor (2.3.0.41)</package>
+        </Required>
+        <Dependent type="300" schemaName="msdyn_inventorymobile_b5ede" displayName="Inventory on-hand mobile app" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_financeandoperationsentity" displayName="Available Finance and Operations Entity" solution="MicrosoftOperationsERPCatalog (2.9.3.340)" />
+        <Dependent type="1" schemaName="mserp_financeandoperationsentity" displayName="Available Finance and Operations Entity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_financeandoperationsentity" displayName="Available Finance and Operations Entity" solution="MicrosoftOperationsERPCatalog (2.9.3.340)" />
+        <Dependent type="50" schemaName="mserp_financeandoperationsentity:RibbonDiffXml" displayName="mserp_financeandoperationsentity:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventavailphysicaliaggregatemobileentity" displayName="Available physical aggregate  (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="1" schemaName="mserp_inventavailphysicaliaggregatemobileentity" displayName="Available physical aggregate  (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventavailphysicaliaggregatemobileentity" displayName="Available physical aggregate  (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="300" schemaName="msdyn_inventorymobile_b5ede" displayName="Inventory on-hand mobile app" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventavailphysicaliaggregatemobileentity" displayName="Available physical aggregate  (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="50" schemaName="mserp_inventavailphysicaliaggregatemobileentity:RibbonDiffXml" displayName="mserp_inventavailphysicaliaggregatemobileentity:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobileentryentity" displayName="Inventory onhand mobile entry (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="1" schemaName="mserp_inventinventoryonhandmobileentryentity" displayName="Inventory onhand mobile entry (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobileentryentity" displayName="Inventory onhand mobile entry (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="300" schemaName="msdyn_inventorymobile_b5ede" displayName="Inventory on-hand mobile app" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobileentryentity" displayName="Inventory onhand mobile entry (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="50" schemaName="mserp_inventinventoryonhandmobileentryentity:RibbonDiffXml" displayName="mserp_inventinventoryonhandmobileentryentity:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobilerequestentity" displayName="Inventory onhand mobile request (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="1" schemaName="mserp_inventinventoryonhandmobilerequestentity" displayName="Inventory onhand mobile request (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobilerequestentity" displayName="Inventory onhand mobile request (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="50" schemaName="mserp_inventinventoryonhandmobilerequestentity:RibbonDiffXml" displayName="mserp_inventinventoryonhandmobilerequestentity:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobilerequestentityv2" displayName="Inventory onhand mobile request (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="1" schemaName="mserp_inventinventoryonhandmobilerequestentityv2" displayName="Inventory onhand mobile request (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobilerequestentityv2" displayName="Inventory onhand mobile request (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="300" schemaName="msdyn_inventorymobile_b5ede" displayName="Inventory on-hand mobile app" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventinventoryonhandmobilerequestentityv2" displayName="Inventory onhand mobile request (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="50" schemaName="mserp_inventinventoryonhandmobilerequestentityv2:RibbonDiffXml" displayName="mserp_inventinventoryonhandmobilerequestentityv2:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventsiteandwarehousemobileentity" displayName="Site and warehouse (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="1" schemaName="mserp_inventsiteandwarehousemobileentity" displayName="Site and warehouse (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventsiteandwarehousemobileentity" displayName="Site and warehouse (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="mserp_inventsiteandwarehousemobileentity" parentDisplayName="Site and warehouse (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventsiteandwarehousemobileentity" displayName="Site and warehouse (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="300" schemaName="msdyn_inventorymobile_b5ede" displayName="Inventory on-hand mobile app" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mserp_inventsiteandwarehousemobileentity" displayName="Site and warehouse (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="50" schemaName="mserp_inventsiteandwarehousemobileentity:RibbonDiffXml" displayName="mserp_inventsiteandwarehousemobileentity:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="mserp_inventinventoryonhandmobileaggregatetype" displayName="InventInventoryOnHandMobileAggregateType (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="9" schemaName="mserp_inventinventoryonhandmobileaggregatetype" displayName="InventInventoryOnHandMobileAggregateType (mserp)" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="mserp_noyes" displayName="NoYes (mserp)" solution="MicrosoftOperationsERPVE (1.0.0.0)" />
+        <Dependent type="9" schemaName="mserp_noyes" displayName="NoYes (mserp)" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
