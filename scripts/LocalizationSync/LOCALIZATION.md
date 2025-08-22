@@ -107,18 +107,18 @@ File to edit:
 
 ## Optional: Keep JSON and bundles in sync automatically
 
-Use the sync script to regenerate the Canvas JSON from the control’s en-US resx, and to rewrite the key arrays in both control bundles so the control emits all keys that exist in the resx.
+Use the sync script to regenerate the Canvas JSON from the control’s en-US resx, rewrite the key arrays in both control bundles so the control emits all keys that exist in the resx, and (by default) copy the control resx into the Canvas resx.
 
 - Script: `scripts/LocalizationSync/Sync-Localization.ps1`
 
 Examples (PowerShell):
 
 ```powershell
-# Sync JSON and both bundles from the default canonical resx
-.\scripts\LocalizationSync\Sync-Localization.ps1
+# Sync JSON, both bundles, and Canvas resx from the default canonical resx
+\.\scripts\LocalizationSync\Sync-Localization.ps1
 
-# Also overwrite the Canvas resx with the control resx (use with care)
-.\scripts\LocalizationSync\Sync-Localization.ps1 -UpdateCanvasResx
+# Skip overwriting the Canvas resx if you maintain it separately
+\.\scripts\LocalizationSync\Sync-Localization.ps1 -SkipCanvasResx
 
 # Specify custom paths if needed
 .\scripts\LocalizationSync\Sync-Localization.ps1 -CanonicalResxPath "path\to\Localization.1033.resx"

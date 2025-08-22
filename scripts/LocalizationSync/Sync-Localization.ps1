@@ -7,7 +7,8 @@ param(
     [string] $CanvasBundlePath = "$PSScriptRoot/../../CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.bundle.js",
     [string] $CanvasJsonPath = "$PSScriptRoot/../../CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.json",
     [string] $CanvasResxPath = "$PSScriptRoot/../../CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx",
-    [switch] $UpdateCanvasResx
+    [switch] $UpdateCanvasResx,
+    [switch] $SkipCanvasResx
 )
 
 $ErrorActionPreference = 'Stop'
@@ -79,9 +80,16 @@ $labels = Get-ResxLabels -ResxPath $CanonicalResxPath
 Write-Host "Writing Canvas JSON: $CanvasJsonPath"
 Write-JsonLabels -Labels $labels -OutPath $CanvasJsonPath
 
-if ($UpdateCanvasResx) {
+# Determine whether to sync Canvas resx (default: true). Back-compat: if -UpdateCanvasResx provided, honor it.
+$shouldSyncCanvasResx = $true
+if ($PSBoundParameters.ContainsKey('UpdateCanvasResx')) { $shouldSyncCanvasResx = [bool]$UpdateCanvasResx }
+if ($SkipCanvasResx) { $shouldSyncCanvasResx = $false }
+
+if ($shouldSyncCanvasResx) {
     Write-Host "Syncing Canvas resx from control: $CanvasResxPath"
     Sync-CanvasResxFromControl -SourceResx $CanonicalResxPath -TargetResx $CanvasResxPath
+} else {
+    Write-Host "Skipping Canvas resx sync (per parameters)."
 }
 
 Write-Host "Updating control bundle key array: $ControlBundlePath"
