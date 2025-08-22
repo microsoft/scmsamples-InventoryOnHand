@@ -54,6 +54,9 @@ To review licensing details, please see the [Dynamics 365 Licensing Guide](https
 
 ## Installing the Mobile App in Dataverse
 
+### Prerequisites
+- Make sure that you have enabled dual write for legal entities
+
 Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Application** in Dataverse:
 
 1. **Navigate to the PowerApps Portal**: [https://make.powerapps.com](https://make.powerapps.com)
@@ -80,3 +83,17 @@ Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Applic
 ## Additional Resources
 For more details, including **security roles** and **Finance and Operations Inventory On-Hand setup** , refer to the official Microsoft documentation:  
 [Onboarding the Inventory On-Hand Mobile App](https://learn.microsoft.com/en-us/dynamics365/supply-chain/inventory/inventory-onhand-mobile-app).
+
+---
+
+## Localization
+
+Want to add or update labels/translations used by the app? See the Localization guide:
+
+- [LOCALIZATION.md](./scripts/LocalizationSync/LOCALIZATION.md)
+
+### TL;DR
+- Add your key to `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.1033.resx` (and other LCIDs you support).
+- Add the same key to the key array in `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js` (and the Canvas bundle copy if present).
+- Keep Canvas copies in sync: update `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx` and `.json`.
+- Use it in the app: `Localization1.Labels.<YourKey>`.
