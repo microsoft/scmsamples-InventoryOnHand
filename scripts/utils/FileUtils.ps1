@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 function Remove-Directory {
     param (
         [string]$directoryPath
