@@ -36,6 +36,8 @@ Example key: `msdyn_scm_NewHelpText`
 
 2) Make the control emit the key
 
+You can optionally use the automatic script for this step. See: [automatic script](#optional-keep-json-and-bundles-in-sync-automatically)
+
 - File: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js`
 - At the top, find the array of keys (it starts with entries like `"msdyn_scm_Next"`, etc.). Add:
 
@@ -45,6 +47,8 @@ Example key: `msdyn_scm_NewHelpText`
 
 3) Keep Canvas resources in sync (en-US)
 
+You can optionally use the automatic script for this step. See: [automatic script](#optional-keep-json-and-bundles-in-sync-automatically)
+
 - File: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx`
   - Add the same `<data>` entry as in step 1.
 - File: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.json`
@@ -53,6 +57,8 @@ Example key: `msdyn_scm_NewHelpText`
   - If this bundle contains the key list, add `"msdyn_scm_NewHelpText"` there as well to mirror changes.
 
 4) Use the label in your Canvas app
+
+You can optionally use the automatic script for this step. See: [automatic script](#optional-keep-json-and-bundles-in-sync-automatically)
 
 - Insert the control (e.g., named `Localization1`). Reference your string as:
 
