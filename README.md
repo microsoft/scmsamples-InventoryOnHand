@@ -55,9 +55,10 @@ To review licensing details, please see the [Dynamics 365 Licensing Guide](https
 ## Installing the Mobile App in Dataverse
 
 ### Prerequisites
-- Make sure that you have enabled dual write for legal entities
+- [Dual Write Setup](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview)
+- Make sure that you have enabled dual write for legal entities 
 
-Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Application** in Dataverse:
+### Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Application** in Dataverse:
 
 1. **Navigate to the PowerApps Portal**: [https://make.powerapps.com](https://make.powerapps.com)
 2. **Navigate to the Solutions tab on the left side**
