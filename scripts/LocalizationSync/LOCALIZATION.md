@@ -99,22 +99,6 @@ File to edit:
 
 ---
 
-## Optional: Generate a Power Fx table from resx
-
-There’s a helper script that converts `.resx` to a Power Fx table for initializing labels in Canvas:
-
-- Script: `scripts/LocalizerTool/LocalizerTool.ps1`
-
-Usage (PowerShell):
-
-```powershell
-.\u005cscripts\LocalizerTool\LocalizerTool.ps1 -CopyToClipboard
-```
-
-Note: The script expects `.resx` in a `Translations/` folder by default. Adjust the script paths or mirror your resx files there if you want to use it.
-
----
-
 ## Optional: Keep JSON and bundles in sync automatically
 
 Use the sync script to regenerate the Canvas JSON from the control’s en-US resx, and to rewrite the key arrays in both control bundles so the control emits all keys that exist in the resx.
@@ -140,25 +124,3 @@ Notes:
 - The regex targets the `var t=[...];` declaration pattern present in both bundles.
 
 ---
-
-## Troubleshooting
-
-- I added the key to `.resx` but don’t see it:
-  - Ensure you also added the key to the key list in `bundle.js` (and the Canvas bundle copy, if present).
-- My new language isn’t picked up:
-  - Confirm its `.resx` is listed in `ControlManifest.xml`.
-- Quotes/whitespace look off:
-  - In JSON, escape quotes correctly.
-  - In resx, use `xml:space="preserve"` when whitespace is significant.
-
----
-
-## Reference paths
-
-- Control bundle: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js`
-- Control resx: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.<LCID>.resx`
-- Control manifest: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/ControlManifest.xml`
-- Canvas copies (en-US):
-  - JSON: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.json`
-  - RESX: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx`
-  - Bundle: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.bundle.js`
