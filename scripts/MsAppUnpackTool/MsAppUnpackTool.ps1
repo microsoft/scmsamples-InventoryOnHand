@@ -18,3 +18,10 @@ $MsAppPath = Prepare-MsAppPath -msAppPath $MsAppPath
 Expand-MsAppArchive -msAppPath $MsAppPath -destinationPath $sourcePath
 
 & "$PSScriptRoot/Remove-SecretUrisFromAppSource.ps1"
+
+# Remove the .gitignore that may be included in the unpacked CanvasAppSource
+$gitignorePath = Join-Path $sourcePath '.gitignore'
+if (Test-Path -LiteralPath $gitignorePath) {
+    Remove-Item -LiteralPath $gitignorePath -Force -ErrorAction SilentlyContinue
+}
+
