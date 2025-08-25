@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 . "$PSScriptRoot/../utils/FileUtils.ps1"
 . "$PSScriptRoot/../utils/PowerAppsUtils.ps1"
 

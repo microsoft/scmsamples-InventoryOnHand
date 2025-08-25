@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 function Get-LanguageFromLcid {
     param (
         [string]$Lcid

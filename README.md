@@ -17,7 +17,8 @@ The Inventory On-Hand mobile app relies on **Dataverse**. You must ensure your e
 2. Navigate to **Environments > New**.
 3. Set up a new environment or choose an existing one.
 4. Ensure **"Enable Dynamics 365 apps"** is enabled.
-5. Ensure **Power Apps Component Framework (PCF)** is enabled.
+5. Navigate to Environment Settings => Behavior => Features
+6. Ensure **Power Apps Component Framework (PCF)** is enabled.
 
 ---
 
@@ -32,6 +33,9 @@ To review licensing details, please see the [Dynamics 365 Licensing Guide](https
 ---
 # Build, install, and other development processes
 ## Prerequisites
+### Windows Powershell
+- Install [Powershell](https://learn.microsoft.com/en-gb/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
+
 ### Microsoft Power Platform CLI
 - Install [Microsoft Power Platform CLI](https://aka.ms/PowerAppsCLI).
 
@@ -54,7 +58,11 @@ To review licensing details, please see the [Dynamics 365 Licensing Guide](https
 
 ## Installing the Mobile App in Dataverse
 
-Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Application** in Dataverse:
+### Prerequisites
+- [Dual Write Setup](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview)
+- Make sure that you have enabled dual write for legal entities 
+
+### Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Application** in Dataverse:
 
 1. **Navigate to the PowerApps Portal**: [https://make.powerapps.com](https://make.powerapps.com)
 2. **Navigate to the Solutions tab on the left side**
@@ -80,3 +88,17 @@ Follow these steps to install the **Dynamics 365 Inventory On-Hand Mobile Applic
 ## Additional Resources
 For more details, including **security roles** and **Finance and Operations Inventory On-Hand setup** , refer to the official Microsoft documentation:  
 [Onboarding the Inventory On-Hand Mobile App](https://learn.microsoft.com/en-us/dynamics365/supply-chain/inventory/inventory-onhand-mobile-app).
+
+---
+
+## Localization
+
+Want to add or update labels/translations used by the app? See the Localization guide:
+
+- [LOCALIZATION.md](./scripts/LocalizationSync/LOCALIZATION.md)
+
+### TL;DR
+- Add your key to `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.1033.resx` (and other LCIDs you support).
+- Add the same key to the key array in `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js` (and the Canvas bundle copy if present).
+- Keep Canvas copies in sync: update `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx` and `.json`.
+- Use it in the app: `Localization1.Labels.<YourKey>`.

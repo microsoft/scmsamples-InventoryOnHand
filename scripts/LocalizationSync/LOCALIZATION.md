@@ -1,0 +1,132 @@
+# Localization Guide
+
+This repository includes a PCF control that exposes localized strings to your Canvas app. Use this guide to add new labels, translate them, and keep resources in sync.
+
+## Overview
+
+- PCF control: `Inventory.Mobile.Controls.Localization`
+- Output: a single object property, `Labels`, containing key/value pairs of localized strings
+- Where strings live:
+  - Control resx files: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.<LCID>.resx`
+  - Control bundle: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js`
+  - Control manifest: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/ControlManifest.xml`
+  - Canvas copies (en-US in this repo):
+    - `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx`
+    - `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.json`
+    - `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.bundle.js`
+
+Important: The control only emits the keys listed in an internal array inside `bundle.js`. Adding a key to a `.resx` alone is not enough—you must also add it to that key list (or rebuild from source if you have it).
+
+---
+
+## Quick start: add one label (en-US)
+
+Example key: `msdyn_scm_NewHelpText`
+
+1) Add the key to the control’s en-US resx
+
+- File: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.1033.resx`
+- Insert inside `<root>`:
+
+```xml
+<data name="msdyn_scm_NewHelpText" xml:space="preserve">
+  <value>This is the new help text.</value>
+</data>
+```
+
+2) Make the control emit the key
+
+You can optionally use the automatic script for this step. See: [automatic script](#optional-keep-json-and-bundles-in-sync-automatically)
+
+- File: `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js`
+- At the top, find the array of keys (it starts with entries like `"msdyn_scm_Next"`, etc.). Add:
+
+```text
+"msdyn_scm_NewHelpText"
+```
+
+3) Keep Canvas resources in sync (en-US)
+
+You can optionally use the automatic script for this step. See: [automatic script](#optional-keep-json-and-bundles-in-sync-automatically)
+
+- File: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx`
+  - Add the same `<data>` entry as in step 1.
+- File: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.json`
+  - Add: `"msdyn_scm_NewHelpText": "This is the new help text."`
+- File: `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.bundle.js`
+  - If this bundle contains the key list, add `"msdyn_scm_NewHelpText"` there as well to mirror changes.
+
+4) Use the label in your Canvas app
+
+You can optionally use the automatic script for this step. See: [automatic script](#optional-keep-json-and-bundles-in-sync-automatically)
+
+- Insert the control (e.g., named `Localization1`). Reference your string as:
+
+```powerfx
+Localization1.Labels.msdyn_scm_NewHelpText
+```
+
+---
+
+## Add translations for other languages
+
+For each supported language LCID, add the same key to its resx file under:
+
+- `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.<LCID>.resx`
+
+XML example:
+
+```xml
+<data name="msdyn_scm_NewHelpText" xml:space="preserve">
+  <value>Localized value for this language</value>
+</data>
+```
+
+Notes:
+- If a translation is missing, runtime typically falls back to en-US; still, always include `Localization.1033.resx`.
+- Preserve `xml:space="preserve"` when whitespace matters.
+
+---
+
+## Add a brand-new language (LCID)
+
+1) Create the new resx file in the control folder, e.g. `Localization.1044.resx`.
+2) Register it in the control manifest by adding a line like this under `<resources>`:
+
+```xml
+<resx path="Localization.1044.resx" version="1.0.0" />
+```
+
+File to edit:
+
+- `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/ControlManifest.xml`
+
+3) Optionally add Canvas-side copies if you maintain those per language under `CanvasAppSource/Resources/Controls/`.
+
+---
+
+## Optional: Keep JSON and bundles in sync automatically
+
+Use the sync script to regenerate the Canvas JSON from the control’s en-US resx, rewrite the key arrays in both control bundles so the control emits all keys that exist in the resx, and (by default) copy the control resx into the Canvas resx.
+
+- Script: `scripts/LocalizationSync/Sync-Localization.ps1`
+
+Examples (PowerShell):
+
+```powershell
+# Sync JSON, both bundles, and Canvas resx from the default canonical resx
+\.\scripts\LocalizationSync\Sync-Localization.ps1
+
+# Skip overwriting the Canvas resx if you maintain it separately
+\.\scripts\LocalizationSync\Sync-Localization.ps1 -SkipCanvasResx
+
+# Specify custom paths if needed
+.\scripts\LocalizationSync\Sync-Localization.ps1 -CanonicalResxPath "path\to\Localization.1033.resx"
+```
+
+Notes:
+- The script rewrites the key arrays in `bundle.js` files to match the resx keys. Run it after adding/removing keys in resx.
+- Keys are sorted for stable diffs.
+- The regex targets the `var t=[...];` declaration pattern present in both bundles.
+
+---
