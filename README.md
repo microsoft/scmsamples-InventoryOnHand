@@ -17,7 +17,8 @@ The Inventory On-Hand mobile app relies on **Dataverse**. You must ensure your e
 2. Navigate to **Environments > New**.
 3. Set up a new environment or choose an existing one.
 4. Ensure **"Enable Dynamics 365 apps"** is enabled.
-5. Ensure **Power Apps Component Framework (PCF)** is enabled.
+5. Navigate to Environment Settings => Behavior => Features
+6. Ensure **Power Apps Component Framework (PCF)** is enabled.
 
 ---
 
@@ -32,6 +33,9 @@ To review licensing details, please see the [Dynamics 365 Licensing Guide](https
 ---
 # Build, install, and other development processes
 ## Prerequisites
+### Windows Powershell
+- Install [Powershell](https://learn.microsoft.com/en-gb/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
+
 ### Microsoft Power Platform CLI
 - Install [Microsoft Power Platform CLI](https://aka.ms/PowerAppsCLI).
 
