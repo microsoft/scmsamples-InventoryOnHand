@@ -1,5 +1,5 @@
 # Copyright (c) Microsoft Corporation.
-# Licensed under the MIT license.
+# Licensed under the MIT License.
 
 param(
     [string] $CanonicalResxPath = "$PSScriptRoot/../../Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/Localization.1033.resx",

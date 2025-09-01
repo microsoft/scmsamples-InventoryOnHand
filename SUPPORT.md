@@ -1,25 +1,21 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/onboardsupport](https://aka.ms/onboardsupport). CSS will work with/help you to determine next steps.
-- **Not sure?** Fill out an intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
 
-## How to file issues and get help  
+## How to file issues and get help
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
-feature request as a new Issue.
+This project uses GitHub Issues to track bugs and feature requests. Before filing a new issue, please search existing issues to avoid duplicates.
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+When opening a new issue, include:
+- What you tried to do (steps to reproduce)
+- Expected behavior vs. actual behavior
+- Version details (repo commit, tool versions such as Power Platform CLI)
+- Environment details (Windows version, PowerShell version)
 
-## Microsoft Support Policy  
+Questions and discussions are also welcome via GitHub Issues labeled “question”.
 
-Support for this **PROJECT or PRODUCT** is limited to the resources listed above.
+## Scope of support
+
+This repository is provided as a sample. There is no formal Microsoft CSS support. Community-driven support is provided on a best-effort basis via GitHub Issues.
+
+## Security issues
+
+Do not report security vulnerabilities in GitHub Issues. Please follow the guidance in SECURITY.md to contact the Microsoft Security Response Center (MSRC).

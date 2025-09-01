@@ -102,3 +102,23 @@ Want to add or update labels/translations used by the app? See the Localization 
 - Add the same key to the key array in `Solution/Export/Controls/msdyn_Inventory.Mobile.Controls.Localization/bundle.js` (and the Canvas bundle copy if present).
 - Keep Canvas copies in sync: update `CanvasAppSource/Resources/Controls/Inventory.Mobile.Controls.Localization.Localization.1033.resx` and `.json`.
 - Use it in the app: `Localization1.Labels.<YourKey>`.
+
+---
+
+## Third-party code
+
+This repository does not include third-party source code. It contains:
+- PowerShell automation for packing/unpacking Canvas apps and solutions.
+- Canvas App source and Dataverse solution assets authored for this sample.
+
+At runtime, the app depends on Microsoft services (Dataverse and Dynamics 365 Supply Chain Management). If third-party code is added in the future, this section will be updated with attributions and license information.
+
+## Telemetry
+
+This repository does not collect telemetry. If you fork or extend this project to add telemetry, ensure you:
+- Provide clear instructions to disable telemetry, and
+- Include a telemetry/data collection notice in this README.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow Microsoft’s Trademark & Brand Guidelines. Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party’s policies.
